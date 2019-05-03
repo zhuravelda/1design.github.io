@@ -1644,7 +1644,7 @@ img {
     content: "";
     height: 70px;
     width: 70px;
-    background-image: url(../../img/elips.png);
+    background-image: url(../img/elips.png);
     position: absolute;
     top: -27px;
     left: -80px;
