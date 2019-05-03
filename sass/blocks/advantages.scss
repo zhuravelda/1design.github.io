@@ -1,0 +1,122 @@
+.advantages-list__item {
+  &--namber {
+    font-family: 'Playfair Display', Times, serif;
+    @include PlayfairDisplay (700, 85px, auto,$number-color);
+  opacity: 0.26;
+  }
+  &--title {
+    @include Raleway (600, 24px, auto, $title-color);
+  }
+  &--text {
+    letter-spacing: 1px;
+    @include Raleway (300, 18px, 25px, $advantages-text);
+  }
+
+}
+
+.advantages-list {
+  list-style: none;
+  padding-left: 0;
+  padding-top: 18px;
+}
+
+.advantages-list__item--namber {
+  color: red;
+}
+
+.advantages-list__item--namber,
+.advantages-list__item--title,
+.advantages-list__item--text {
+  margin: 0;
+}
+
+.advantages-list__item--title {
+  padding-bottom: 20px;
+}
+
+.advantages-list__item--namber {
+  margin-bottom: 5px;
+}
+
+.advantages {
+  margin-bottom: 90px;
+}
+
+
+
+
+@media (min-width: $tablet-width) {
+  .advantages-list__item {
+    width: 346px;
+    box-sizing: border-box;
+    padding-right: 53px;
+    padding-top: 0;
+  }
+
+  .advantages {
+    padding-top: 30px;
+    padding-bottom: 50px;
+  }
+
+  .advantages-list {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    height: 100%;
+  }
+
+  .advantages-list__item:nth-child(2n) {
+    margin-top: 160px;
+  }
+
+  .advantages-list__item:nth-child(3) {
+    margin-top: -30px;
+
+    &--namber {
+      margin-bottom: 10px;
+    }
+
+  }
+
+  .advantages-list__item:nth-child(4) {
+  margin-top: 150px;
+  }
+
+}
+
+
+@media (min-width: $desktop-width) {
+  .advantages-list {
+    flex-wrap: nowrap;
+  }
+
+  .advantages {
+    padding-top: 60px;
+    padding-bottom: 0px;
+  }
+
+  .advantages-list__item:nth-child(2n) {
+    margin-top: 210px;
+  }
+
+  .advantages-list__item:nth-child(3) {
+    margin-top: 0;
+  }
+
+  .advantages-list__item {
+    width: 290px;
+    box-sizing: border-box;
+    padding-right: 37px;
+    padding-top: 0;
+
+    &--title {
+      letter-spacing: 0;
+      @include Raleway (600, 22px, auto, $title-color);
+    }
+    &--text {
+      letter-spacing: 1px;
+      @include Raleway (300, 16px, 25px, $advantages-text);
+    }
+  }
+
+}
