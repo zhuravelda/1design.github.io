@@ -488,7 +488,7 @@ img {
   position: relative;
   height: 620px;
   background-color: #182c3d;
-  background-image: url(../../img/background-video.jpg);
+  background-image: url(../img/background-video.jpg);
   background-repeat: no-repeat;
   background-position: center; }
 
@@ -498,7 +498,7 @@ img {
   opacity: 0.7; }
 
 .blume-video__button {
-  background-image: url(../../img/video-button.png);
+  background-image: url(../img/video-button.png);
   background-repeat: no-repeat;
   background-position-x: -18px;
   background-position-y: -15px;
