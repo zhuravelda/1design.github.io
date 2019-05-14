@@ -488,7 +488,7 @@ img {
   position: relative;
   height: 620px;
   background-color: #182c3d;
-  background-image: url(../img/background-video.jpg);
+  background-image: url(../../img/background-video.jpg);
   background-repeat: no-repeat;
   background-position: center; }
 
@@ -498,7 +498,7 @@ img {
   opacity: 0.7; }
 
 .blume-video__button {
-  background-image: url(../img/video-button.png);
+  background-image: url(../../img/video-button.png);
   background-repeat: no-repeat;
   background-position-x: -18px;
   background-position-y: -15px;
@@ -914,41 +914,44 @@ img {
     opacity: 1; } }
 
 .portfolio__title {
-  text-align: center; }
+  text-align: center;
+  margin-bottom: 40px; }
 
 .portfolio__list {
   list-style: none;
   padding-left: 0;
   padding-bottom: 1px; }
   .portfolio__list--item {
-    text-decoration: none;
     font-weight: 400;
     font-size: 22px;
     line-height: auto;
-    color: #7d7d7d; }
+    color: #7d7d7d;
+    text-decoration: none; }
   .portfolio__list--active {
     font-weight: 600;
     font-size: 22px;
     line-height: auto;
     color: #00203a; }
 
-.portfolio__title {
-  margin-bottom: 40px; }
-
 .portfolio__list li {
   margin-bottom: 25px; }
 
 .portfolio__projects {
+  padding-left: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 0;
   list-style: none; }
 
 .projects-item__title {
-  display: block;
-  margin-left: 40px;
-  position: absolute;
   font-weight: 600;
   font-size: 18px;
   line-height: auto;
-  color: #00203a; }
+  color: #00203a;
+  display: block;
+  margin-left: 40px;
+  position: absolute; }
   .projects-item__title--active {
     font-weight: 600;
     font-size: 18px;
@@ -957,13 +960,6 @@ img {
 
 .projects-item__text {
   display: none; }
-
-.portfolio__projects {
-  padding-left: 0;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  margin-bottom: 0; }
 
 .portfolio__button--left,
 .portfolio__button--right {
@@ -1644,7 +1640,7 @@ img {
     content: "";
     height: 70px;
     width: 70px;
-    background-image: url(../img/elips.png);
+    background-image: url(../../img/elips.png);
     position: absolute;
     top: -27px;
     left: -80px;

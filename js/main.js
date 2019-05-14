@@ -76,5 +76,3 @@ $('.portfolio__projects').slick({
     }
   ]
 });
-
-
