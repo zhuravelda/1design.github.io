@@ -488,7 +488,7 @@ img {
   position: relative;
   height: 620px;
   background-color: #182c3d;
-  background-image: url(../../img/background-video.jpg);
+  background-image: url(../img/background-video.jpg);
   background-repeat: no-repeat;
   background-position: center; }
 
@@ -498,7 +498,7 @@ img {
   opacity: 0.7; }
 
 .blume-video__button {
-  background-image: url(../../img/video-button.png);
+  background-image: url(../img/video-button.png);
   background-repeat: no-repeat;
   background-position-x: -18px;
   background-position-y: -15px;
@@ -664,7 +664,7 @@ img {
   background-blend-mode: multiply;
   background-color: #fdfaf3;
   height: 100%;
-  background-image: url(../../img/menu-desk4.jpg);
+  background-image: url(../img/menu-desk4.jpg);
   background-repeat: no-repeat;
   height: 443px;
   position: relative;
@@ -725,7 +725,7 @@ img {
     content: "";
     height: 15px;
     width: 12px;
-    background-image: url(../../img/phone-receiver.png);
+    background-image: url(../img/phone-receiver.png);
     position: absolute;
     background-size: 12px 15px;
     left: 1010px;
@@ -973,7 +973,7 @@ img {
   width: 84px;
   border-radius: 50%;
   background-color: red;
-  background-image: url(../../img/plus.jpg);
+  background-image: url(../img/plus.jpg);
   background-repeat: no-repeat;
   background-position: -18px -15px;
   opacity: 0.95;
@@ -1285,37 +1285,37 @@ img {
 
 .social__header-item--vkontakte {
   background-position: center;
-  background-image: url(../../img/vk.png);
+  background-image: url(../img/vk.png);
   background-repeat: no-repeat;
   background-size: 24px 17px; }
 
 .social__header-item--instagram {
   background-position: center;
-  background-image: url(../../img/instagram.png);
+  background-image: url(../img/instagram.png);
   background-repeat: no-repeat;
   background-size: 22px 22px; }
 
 .social__header-item--facebook {
   background-position: center;
-  background-image: url(../../img/facebook.png);
+  background-image: url(../img/facebook.png);
   background-repeat: no-repeat;
   background-size: 13px 22px; }
 
 .social__item--vkontakte {
   background-position: center;
-  background-image: url(../../img/vk.png);
+  background-image: url(../img/vk.png);
   background-repeat: no-repeat;
   background-size: 31px 19px; }
 
 .social__item--instagram {
   background-position: center;
-  background-image: url(../../img/instagram.png);
+  background-image: url(../img/instagram.png);
   background-repeat: no-repeat;
   background-size: 27px 26px; }
 
 .social__item--facebook {
   background-position: center;
-  background-image: url(../../img/facebook.png);
+  background-image: url(../img/facebook.png);
   background-repeat: no-repeat;
   background-size: 13px 26px; }
 
@@ -1435,7 +1435,7 @@ img {
 .service__block-description--img {
   height: 390px;
   background-repeat: no-repeat;
-  background-image: url(../../img/our-service.jpg); }
+  background-image: url(../img/our-service.jpg); }
 
 .service__block-description--title {
   display: none;
@@ -1640,7 +1640,7 @@ img {
     content: "";
     height: 70px;
     width: 70px;
-    background-image: url(../../img/elips.png);
+    background-image: url(../img/elips.png);
     position: absolute;
     top: -27px;
     left: -80px;
@@ -1750,7 +1750,7 @@ img {
   width: 14px;
   margin: 0 auto;
   margin-top: 30px;
-  background-image: url(../../img/Arrow-OutRight-icon.png);
+  background-image: url(../img/Arrow-OutRight-icon.png);
   background-repeat: no-repeat;
   background-position: 0 0; }
 
@@ -1847,7 +1847,7 @@ img {
   background-color: rgba(24, 44, 61, 0.6);
   padding-bottom: 90px;
   padding-top: 30px;
-  background-image: url(../../img/kitchen.jpg);
+  background-image: url(../img/kitchen.jpg);
   background-repeat: no-repeat;
   background-size: cover; }
 
@@ -1969,7 +1969,7 @@ img {
     background-color: #182c3d; }
   .block-form__side-picture {
     width: 50%;
-    background-image: url(../../img/kitchen.jpg);
+    background-image: url(../img/kitchen.jpg);
     background-repeat: no-repeat; }
   .block-form__title {
     text-align: left;
